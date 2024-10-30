@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    background-color: black;
+    font-family: "Overpass", sans-serif;
+    
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    background-color: hsl(213, 19%, 18%);
+    padding: 15px;
+    border-radius: 50%;
+    display: flex;
+    align-self: start;
+    margin-bottom: 40px;
+}
+
+section h1, p{
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    align-items: start;
+}
+
+section p{
+    color: hsl(217, 12%, 63%);
+    text-align: start;
+    margin-bottom: 5px;
+}
+
+section{
+    background-color:  hsl(216, 12%, 8%);
+    color: hsl(0, 0%, 100%);
+    margin-top: 25vh;
+    text-align: center;
+    padding: 40px;
+    height: 350px;
+    width: 400px;
+    border-radius: 30px;
+}
+
+section ul{
+    background-color: hsl(216, 12%, 8%);
+    list-style: none;
+    padding-left: 0;
+    position: absolute;
+
+}
+section li{
+    background-color:  hsl(213, 19%, 18%);
+    display: inline-block;
+    color: hsl(217, 12%, 63%);
+    padding: 15px;
+    width: 20px;
+    border-radius: 50%;
+    margin-right: 30px;
+    font-weight: 800;
+}
+
+section li:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(213, 19%, 18%);
+    cursor: pointer;
+}
+
+
+section button{
+    border: none;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(216, 12%, 8%);
+    padding: 15px 170px 15px 170px;
+    border-radius: 40px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 11vh;
+}
+
+section button:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(213, 19%, 18%);
+    cursor: pointer;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    color: white;
+}
